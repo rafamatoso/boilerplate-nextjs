@@ -1,6 +1,6 @@
-import Head from "next/head";
+import Head from 'next/head'
 
-export default function Home({title = "React Avançado"}) {
+export default function Home({ title = 'React Avançado' }) {
   return (
     <div className="container">
       <Head>
@@ -15,8 +15,7 @@ export default function Home({title = "React Avançado"}) {
         </h1>
 
         <p className="description">
-          Get started by editing{" "}
-          <code className="code">pages/index.js</code>
+          Get started by editing <code className="code">pages/index.js</code>
         </p>
 
         <div className="grid">
@@ -56,9 +55,9 @@ export default function Home({title = "React Avançado"}) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{" "}
+          Powered by{' '}
         </a>
       </footer>
     </div>
-  );
+  )
 }
