@@ -3,7 +3,7 @@ import { colors } from '../../styles/colors'
 
 export const Wrapper = styled.main`
   background-color: ${colors.bgMain};
-  color: #fff;
+  color: ${colors.fontMain};
   width: 100%;
   height: 100%;
   padding: 3rem;
